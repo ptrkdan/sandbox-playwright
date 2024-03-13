@@ -33,6 +33,7 @@ jobs:
       - name: Get current time
         uses: josStorer/get-current-time@v2.0.1
         id: current-time
+        if: always()
         with:
           format: YYYYMMDDHHmmss
           utcOffset: "+09:00"
