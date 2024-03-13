@@ -1,0 +1,26 @@
+{
+  "commands": [
+		{
+			"title": "Querying",
+      "link": "/commands/querying",
+      "functions": [{
+        "name": "cy.get()",
+        "link": "https://on.cypress.io/get"
+        },
+        {
+          "name": "cy.contains()",
+          "link": "https://on.cypress.io/contains"
+        },
+        {
+          "name": ".within()",
+          "link": "https://on.cypress.io/within"
+        }
+      ]
+		},
+		{
+			"title": "Traversal",
+			"link": "/commands/traversal",
+      "functions": []
+		}
+	]
+}
