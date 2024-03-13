@@ -1,7 +1,7 @@
 import { test, expect } from "@playwright/test";
 import { readFileSync } from "fs";
 
-const data = JSON.parse(readFileSync(`tests/config/${process.env.VARIABLES_FILE || 'commands.json'}` , 'utf-8')) as { commands: Command[]};
+const data = JSON.parse(readFileSync(`tests/config/${process.env.DATE_FILENAME || 'commands.json'}` , 'utf-8')) as { commands: Command[]};
 
 type Command = {
   title: string;
